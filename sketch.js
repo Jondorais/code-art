@@ -11,7 +11,7 @@ function setup() {
 
 function draw() {
   background(img2);
-	background(mouseX, mouseY, 40, 40)
+	background(mouseX, mouseY, 20, 20)
 
   noStroke();
   image(img1, mouseX - 50, mouseY - 50, 125, 125);
