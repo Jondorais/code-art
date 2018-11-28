@@ -1,0 +1,26 @@
+function setup() {
+  createCanvas(1500, 1450)
+}
+
+function draw() {
+
+  if (mouseIsPressed){
+    noStroke();
+    fill(255);
+  }
+  else {
+    noStroke();
+    fill(237, 34, 93)
+  }
+  ellipse(mouseX, mouseY, 50, 50);
+
+}
+html, body {
+  background-color: purple
+  max-width: 1500px;
+  margin: auto;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
